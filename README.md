@@ -1,6 +1,6 @@
 # INI8Labs
 
-This project is built using JDBC, Servlet and JSP.
+This project is built using Java, JDBC, Servlet and JSP as backend and HTML, CSS and JavaScript as frontend. According to the requirements given, I have performed CRUD operations on User table.
 
 System Requirements
 1. Eclipse Enterprise Edition
