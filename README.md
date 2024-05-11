@@ -1,5 +1,7 @@
 # INI8Labs
 
+This project is built using JDBC, Servlet and JSP.
+
 System Requirements
 1. Eclipse Enterprise Edition
 2. Apache Tomcat Server
@@ -7,7 +9,7 @@ System Requirements
 
 Steps to create database
 1. Open ini8labs.sql
-2. Execute the queries in your mysql
+2. Execute the queries in your mysql.
 
 Steps to import project into eclipse
 1. Import the INI8Labs_Assessment directory into the eclipse workspace.
