@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image: linear-gradient(to right bottom, rgba(76, 216, 255, 0.8),rgba(30, 108, 217, 0.8));
+  background-size: cover;
+	background-position: top;
+  	position: relative;
+	line-height: 1.7;
+}
+
+.box {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.heading {
+  	color: #fff;
+  	text-transform: uppercase;
+  	margin-bottom: 30px;
+}
+
+.heading-main {
+  	display: block;
+  	font-size: 26px;
+  	font-weight: 400;
+  	letter-spacing: 5px;
+}
+
+.heading-sub {
+  	display: block;
+  	font-size: 18px;
+  	font-weight: 700;
+  	letter-spacing: 7.4px;
+}
+
+.message{
+	background-color: #fff;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 100px;
+	margin-bottom: 20px;
+}
+
+.message h2{
+	color: #777;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.btn:link,.btn:visited {
+  	text-transform: uppercase;
+  	text-decoration: none;
+  	padding: 10px 20px;
+  	display: inline-block;
+  	border-radius: 100px;
+  	transition: all .2s;
+  	position: relative;
+  	margin: 10px;
+}
+
+.btn:hover {
+  	transform: translateY(-3px);
+  	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  	background-color: #fff;
+  	color: #777;
+	font-size: 14px;
+}
+
+
+.container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  line-height: 1;
+}
+.container header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.form {
+  margin-top: 30px;
+}
+.input-box {
+  width: 100%;
+  margin-top: 15px;
+}
+.input-box label {
+  color: #333;
+}
+.input-box input {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  font-size: 0.9rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+  border-bottom-width: 2.5px;
+}
+.input-box input:focus,
+.input-box input:valid{
+  border-color: rgb(130, 106, 251);
+}
+.gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.gender-option, .gender {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: rgb(130, 106, 251);
+}
+.gender input, .gender label {
+  cursor: pointer;
+}
+.gender label {
+  color: #707070;
+}
+.button {
+  height: 45px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+ 	background:rgba(30, 108, 217, 0.8);
+}
+.button:hover {
+  background: rgb(88, 56, 250);
+}
+
+.show-button{
+	height: 35px;
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 38%;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+	background: rgba(76, 216, 255, 0.8);
+}
+.show-button a{
+	text-decoration: none;
+	color: black;
+	font-size: 0.8rem;
+	font-weight: 400;
+	
+}
+
+
+.content-table {
+	display: block;
+	border-spacing: 1;
+	border-collapse: collapse;
+	background: white;
+	border-radius: 6px;
+	overflow: hidden;
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.content-table td, th {
+	padding-left: 8px;
+	padding: 10px;
+}
+
+.content-table thead tr {
+	height: 60px;
+	background: #FFED86;
+	font-size: 16px;
+}
+
+.content-table tbody tr {
+	height: 48px;
+	border-bottom: 1px solid #E3F1D5;
+	last-child {border: 0;}
+}
+
+.content-table td, th {
+	text-align: center;
+}
+.content-table tbody tr:hover {
+    font-weight: bold;
+    color: rgba(30, 108, 217, 0.8);
+    
+}
+
+
+.edit {
+	padding: 10px 20px;
+	background-color: green;
+	border: none;
+	border-radius: 5px;
+}
+
+.delete {
+	padding: 10px 20px;
+	background-color: crimson;
+	border: none;
+	border-radius: 5px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
